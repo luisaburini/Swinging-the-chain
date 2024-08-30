@@ -18,8 +18,13 @@ O trabalho consiste em uma corrente em movimento pendular senoidal
 - Jumpers
 - Protoboard
 - Olhal para prender a outra ponta na parede
+  
+[Referência para montagem](https://www.youtube.com/watch?v=FggSRQqB_a4V)
 
-![Configuração inicial](/docs/imgs/setup.jpg "Configuração")
+
+Configuração | Rascunho das conexões
+:-----------------------------------------------------:|:----------------------------------------:
+![Configuração inicial](/docs/imgs/setup.jpg "Configuração") | ![Rascunho](/docs/imgs/draft.jpg)
 
 
 Motor de passo Nema 23                                 | Driver controlador do motor 
