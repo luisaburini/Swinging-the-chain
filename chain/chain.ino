@@ -9,18 +9,33 @@ void setup() {
   pinMode(PULSE, OUTPUT);
   
 
-}
+} 
+
+const int times = 5-;
+int i = 0;
 
 void loop() {
-  step = (step+1)%100
+  int v = 1600;
 
-  if step < 50 {
-    digitalWrite(DIRECTION, LOW);
-  } 
-  else {
-    digitalWrite(DIRECTION, HIGH)
+  if (i == times * v) {
+    // 2 minutos
+    delayMicroseconds(12000);
   }
-  digitalWrite(PULSE, LOW);
-  digitalWrite(PULSE, HIGH);
-  delayMicroseconds(60);
+  else {
+    step = ((step+1)%v);
+
+    if (step < v/2) {
+      Serial.print("Step is below");
+      digitalWrite(DIRECTION, LOW);
+    } 
+    else {
+      Serial.print("Step is above");
+      digitalWrite(DIRECTION, HIGH);
+    }
+    digitalWrite(PULSE, LOW);
+    digitalWrite(PULSE, HIGH);
+    delayMicroseconds(300);
+  }
+  i = i+1;
+  
 }
