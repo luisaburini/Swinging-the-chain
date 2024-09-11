@@ -1,25 +1,21 @@
 int step = 0;
-int previous_step = -1;
-int parcel = 1;
 const int DIRECTION = 2;
 const int PULSE = 3;
 
 void setup() {
   pinMode(DIRECTION, OUTPUT);
   pinMode(PULSE, OUTPUT);
-  
-
 } 
 
-const int times = 5-;
 int i = 0;
+const int total = 4800;
+const int v = 1600;
 
 void loop() {
-  int v = 1600;
 
-  if (i == times * v) {
+  if (i == (total)-1) {
     // 2 minutos
-    delayMicroseconds(12000);
+    delay(60000);
   }
   else {
     step = ((step+1)%v);
@@ -36,6 +32,6 @@ void loop() {
     digitalWrite(PULSE, HIGH);
     delayMicroseconds(300);
   }
-  i = i+1;
+  i = (i+1)%total;
   
 }
