@@ -8,13 +8,13 @@ void setup() {
 } 
 
 int i = 0;
-const int total = 4800;
+const int total = 8000;
 const int v = 1600;
 
 void loop() {
 
   if (i == (total)-1) {
-    // 2 minutos
+    // 1 minuto
     delay(60000);
   }
   else {
