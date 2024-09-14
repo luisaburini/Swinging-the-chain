@@ -16,7 +16,6 @@ O trabalho consiste em uma corrente em movimento pendular senoidal
 - Driver controlador do motor
 - Fonte para o motor
 - Jumpers
-- Protoboard
 - Olhal para prender a outra ponta na parede
   
 [Referência para montagem](https://www.youtube.com/watch?v=FggSRQqB_a4V)
