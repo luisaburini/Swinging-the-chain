@@ -1,5 +1,6 @@
 # Corrente
 
+Instruções de montagem para o trabalho "Corrente" de Tetê Lian.
 O trabalho consiste em uma corrente em movimento pendular senoidal 
 
 
